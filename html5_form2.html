@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML5 Form 2</title>
+    </head>
+    <body align="center">
+        <h3>Register Here!!</h2>
+        <form>
+            <label>Username <input type="text" name="uname" placeholder="only a,A,1,@,_,allowed!" required autofocus /></label><br />
+            <label>Password <input type="password" name="pwd" required placeholder="keep it secret" /></label><br />
+            <label>Confirm Password<input type="password" name="pwdc" required placeholder="it's highly confidential!" /></label><br />
+            <label>Name <input type="text" name="name" placeholder="full name" /></label><br />
+            <label>Gender</label><br />
+            <label>Male <input type="radio" name="gender" value="M" /></label>
+            <label>Female <input type="radio" name="gender" value="F" /></label>
+            <label>Prefer Not To Say. <input type="radio" name="gender" value="PNS" /></label><br />
+            <label>Address<br /><textarea name="address" placeholder="house no,street name"></textarea></label><br />
+            <label>Profession</br>
+		 <select name="profession" multiple>
+                    <option value="creater">Creater</option>
+                    <option value="student">Student</option>
+                    <option value="explorer">Explorer</option>
+		    <option value="professional">Professional</option>	
+                </select>
+        	</label></br>
+            <input type="submit" />
+        </form>
+    </body>
+</html>
